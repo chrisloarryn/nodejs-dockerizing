@@ -14,8 +14,8 @@
         -> `docker run -it -p 7000:5010 node-res-api`   => run docker image
 
 ## docker containers
-        -> `docker ps`                => see docker images
-        -> `docker container kill bd6a7004477f`   => delete docker image
+        -> `docker ps`                => see docker containers.
+        -> `docker container kill bd6a7004477f`   => delete docker container.
 
 ## Run tips: `-it => verbose () -d => no verbose || -p => set port`
 
