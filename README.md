@@ -9,13 +9,13 @@
         -> `docker build -t node-res-api .`
 
 ## docker images  
-        -> `docker images`                => see docker images
-        -> `docker rmi -f b90f60a5b587`   => delete docker image
-        -> `docker run -it -p 7000:5010 node-res-api`   => run docker image
+        -> `docker images`                                => see docker images
+        -> `docker rmi -f b90f60a5b587`                   => delete docker image
+        -> `docker run -it -p 7000:5010 node-res-api`     => run docker image
 
 ## docker containers
-        -> `docker ps`                => see docker containers.
-        -> `docker container kill bd6a7004477f`   => delete docker container.
+        -> `docker ps`                                   => see docker containers.
+        -> `docker container kill bd6a7004477f`          => delete docker container.
 
 ## Run tips: `-it => verbose () -d => no verbose || -p => set port`
 
