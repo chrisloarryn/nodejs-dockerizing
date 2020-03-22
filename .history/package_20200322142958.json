@@ -1,19 +1,27 @@
 {
   "name": "nodejs-dockerizing",
-  "version": "0.0.1",
-  "description": "initializing app with docker and nodejs",
+  "version": "1.0.0",
+  "description": "Testing docker in a simple nodejs api",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "scripts": {
-    "start": "node index.js",
-    "start-dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start-dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chrisloarryn/nodejs-dockerizing.git"
   },
+  "keywords": [],
   "author": "chrisloarryn",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/chrisloarryn/nodejs-dockerizing/issues"
   },

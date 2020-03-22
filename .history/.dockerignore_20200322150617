@@ -1,0 +1,3 @@
+node_modules/
+npm-debug.log
+## docker build -t msi/node-web-app .

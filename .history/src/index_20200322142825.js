@@ -1,5 +1,5 @@
 const app = require('./app.js');
-const portDev = 3002;
+const portDev = 3001;
 
 
 /**
