@@ -9,7 +9,7 @@ Testing docker in a simple nodejs api
 -> `docker build -t node-res-api .`
 
 ## docker images  
--> `docker images`                => see docker images
+-> `docker images`                => see docker images \n
 -> `docker rmi -f b90f60a5b587`   => delete docker image
 -> `docker run -it -p 7000:5010 node-res-api`   => run docker image
 
