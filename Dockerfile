@@ -1,7 +1,7 @@
-FROM node:13
+FROM node:10
 
 # Create app directory
-WORKDIR /home/node/app
+WORKDIR /app
 
 ## --chown=msi:docker
 
@@ -13,10 +13,11 @@ COPY package*.json ./
 RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
+## docker build -t Documents/node/app .
 
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+## EXPOSE 8080
 
-CMD [ "node", "src/index.js" ]
+CMD [ "npm", "start" ]
