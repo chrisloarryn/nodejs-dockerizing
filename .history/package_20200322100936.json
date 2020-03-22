@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-dockerizing",
+  "version": "0.0.1",
+  "description": "initializing app with docker and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisloarryn/nodejs-dockerizing.git"
+  },
+  "author": "chrisloarryn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisloarryn/nodejs-dockerizing/issues"
+  },
+  "homepage": "https://github.com/chrisloarryn/nodejs-dockerizing#readme"
+}
