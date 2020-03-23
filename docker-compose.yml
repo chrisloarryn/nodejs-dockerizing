@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "7000:5010"
+  redis:
+    image: "redis:alpine"
